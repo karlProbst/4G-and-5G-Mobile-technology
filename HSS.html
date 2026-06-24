@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+            <html>
+            <head>
+                <meta charset="utf-8">
+                <style>
+                    body { font-family: 'Calibri', 'Arial', sans-serif; color: #222; line-height: 1.5; padding: 20px; }
+                    h1 { color: #5c2d91; border-bottom: 2px solid #5c2d91; padding-bottom: 5px; }
+                    h2 { color: #0078d4; margin-top: 20px; }
+                    .summary-box { background-color: #f3f2f1; border-left: 4px solid #5c2d91; padding: 15px; margin-bottom: 20px; font-style: italic; }
+                    .meta { color: #666; font-size: 0.9em; margin-bottom: 20px; }
+                    a { color: #0078d4; text-decoration: none; font-weight: bold; }
+                    a:hover { text-decoration: underline; }
+                </style>
+            </head>
+            <body>
+                <h1>HSS</h1>
+                <div class="meta"><b>Category:</b> 4G / architecture</div>
+                <div class="summary-box"><b>Executive Summary:</b><br>The Home Subscriber Server (HSS) is the central 4G database containing user subscriptions and security keys. It replaces the fragmented 3G HLR/AuC components.</div>
+                <h2>Advanced Technical Definition</h2>
+                <p>The HSS acts as the master cryptographic and profile database within the Evolved Packet Core (EPC). It executes mutual network authentication—ensuring the UE trusts the network and vice versa—by feeding EPS AKA vectors directly to the <a href="MME.html">MME</a>. This guarantees that traffic entering the <a href="E-UTRAN.html">E-UTRAN</a> and passing through the eNodeB (eNB) belongs to validated subscribers with precise QoS profiles.</p>
+                <h2>Related Component Connections</h2>
+                <ul><li>📄 <a href="E-UTRAN.html">E-UTRAN</a></li><li>📄 <a href="Evolved_Packet_Core_(EPC).html">Evolved Packet Core (EPC)</a></li><li>📄 <a href="MME.html">MME</a></li><li>📄 <a href="Network_Architecture.html">Network Architecture</a></li></ul>
+                <br><hr><br>
+                <a href="index.html" style="color: #5c2d91; font-weight: bold;">&larr; Back to Main Directory</a>
+            </body>
+            </html>
+            

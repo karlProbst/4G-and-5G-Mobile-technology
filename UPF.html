@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+            <html>
+            <head>
+                <meta charset="utf-8">
+                <style>
+                    body { font-family: 'Calibri', 'Arial', sans-serif; color: #222; line-height: 1.5; padding: 20px; }
+                    h1 { color: #5c2d91; border-bottom: 2px solid #5c2d91; padding-bottom: 5px; }
+                    h2 { color: #0078d4; margin-top: 20px; }
+                    .summary-box { background-color: #f3f2f1; border-left: 4px solid #5c2d91; padding: 15px; margin-bottom: 20px; font-style: italic; }
+                    .meta { color: #666; font-size: 0.9em; margin-bottom: 20px; }
+                    a { color: #0078d4; text-decoration: none; font-weight: bold; }
+                    a:hover { text-decoration: underline; }
+                </style>
+            </head>
+            <body>
+                <h1>UPF</h1>
+                <div class="meta"><b>Category:</b> 5G / core</div>
+                <div class="summary-box"><b>Executive Summary:</b><br>The User Plane Function (UPF) is the primary data routing and forwarding engine in the 5G network. It handles the heavy lifting of raw internet traffic without analyzing control signals.</div>
+                <h2>Advanced Technical Definition</h2>
+                <p>The UPF serves as the high-throughput anchor point for Intra-RAT mobility and deep packet inspection. Instructed entirely by the <a href="SMF.html">SMF</a> via SDN methodologies, it routes multi-gigabit eMBB traffic directly from the <a href="gNB.html">gNB</a> to external Data Networks. Because it is decoupled from the control plane (<a href="AMF.html">AMF</a>/<a href="SMF.html">SMF</a>), the UPF can be geographically distributed to the network edge to satisfy strict URLLC latency bounds.</p>
+                <h2>Related Component Connections</h2>
+                <ul><li>📄 <a href="5G.html">5G</a></li><li>📄 <a href="AMF.html">AMF</a></li><li>📄 <a href="Network_Architecture.html">Network Architecture</a></li><li>📄 <a href="Network_Slicing.html">Network Slicing</a></li><li>📄 <a href="SA.html">SA</a></li><li>📄 <a href="SMF.html">SMF</a></li><li>📄 <a href="gNB.html">gNB</a></li></ul>
+                <br><hr><br>
+                <a href="index.html" style="color: #5c2d91; font-weight: bold;">&larr; Back to Main Directory</a>
+            </body>
+            </html>
+            
